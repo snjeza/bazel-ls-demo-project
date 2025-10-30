@@ -5,7 +5,7 @@ filegroup(
     name = "mybuilder_input",
     srcs = glob(
         [
-            "java/resources/**/*.txt",
+            "resources/**/*.txt",
         ],
     ),
 )
