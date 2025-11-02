@@ -7,7 +7,7 @@ load("@salesforce_rules_mybuilder//mybuilder:defs.bzl", "mybuilder_gen_java_libr
 # This generates a library which will be exported by 'module0808_generated'
 mybuilder_gen_java_library(
     name = "generated",
-    srcs = glob(["java/resources/**/*.txt"]),
+    srcs = glob(["resources/**/*.txt"]),
 )
 
 # This is the primary target.

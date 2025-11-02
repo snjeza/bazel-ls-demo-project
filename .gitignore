@@ -38,3 +38,9 @@ hs_err_pid*
 # Eclipse
 .project
 .classpath
+.settings/
+eclipse-bin/
+.bazeltargets
+.idea/
+.intellij-aspects/
+.eclipse/projects
